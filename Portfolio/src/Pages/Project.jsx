@@ -1,4 +1,4 @@
-import "../Styles/About.css";
+import "../Styles/project.css";
 import { Link } from "react-router-dom";
 import "../styles/Project.css";
 import curamapPic from "../assets/curamap.jpg";

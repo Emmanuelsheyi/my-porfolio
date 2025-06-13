@@ -1,0 +1,110 @@
+.project-content {
+ padding: 40px;
+  color: white;
+  font-family: poppins, sans-serif;
+}
+
+.secondlink.active {
+  color: #ffd700; /* gold/yellow */
+  opacity: 1;
+  font-weight: bold;
+  border-bottom: 2px solid #ffd700;
+}
+
+/* ...existing code... */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.project-item .project-item2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid yellow;
+  border-radius: 20px;
+  background-color: rgb(207, 193, 193);
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(50, 47, 47);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(95, 93, 93, 0.2);
+    color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+}
+
+.project-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project-item p {
+  margin-top: 12px;
+  font-size: 1rem;
+  text-align: center;
+}
+/* ...existing code... */
+
+/* media queries */
+
+/* Mobile responsiveness for Project.jsx */
+@media (max-width: 900px) {
+  .projects-container {
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 15px;
+    background: #252424;
+    margin-bottom: 80px; /* To avoid overlap with fixed navbar */
+  }
+  .projects-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .projects-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+  }
+  .project-card {
+    width: 100%;
+    border-radius: 12px;
+    padding: 15px;
+    background: #1a1a1a;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 0 auto;
+  }
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .project-card-title {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  .project-card-description {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .project-card-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+}

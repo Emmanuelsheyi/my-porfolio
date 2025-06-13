@@ -1,4 +1,4 @@
-import "../styles/resume.css";
+import "../Styles/resume.css";
 import { Link } from "react-router-dom";
 import { IoBookOutline } from "react-icons/io5";
 import { LiaUniversitySolid } from "react-icons/lia";

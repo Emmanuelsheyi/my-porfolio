@@ -1,4 +1,4 @@
-import "../styles/About.css";
+import "../Styles/About.css";
 import { Link } from "react-router-dom";
 import { FaReact } from "react-icons/fa";
 import { HiServer } from "react-icons/hi";

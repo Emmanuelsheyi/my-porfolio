@@ -112,7 +112,8 @@ function LeftPanel() {
     <div className="left-container">
       {/* Dropdown toggle for mobile */}
       <div className="mobile-dropdown-toggle" onClick={() => setOpen(!open)}>
-        <span className="profile-menu">{open ? "▲" : "▼"} Profile Menu</span>
+        <span className="profile-menu animate">Click Me</span>
+        <span >{open ? "▲" : "▼"} Profile Menu</span>
       </div>
 
       {/* Dropdown content for mobile */}

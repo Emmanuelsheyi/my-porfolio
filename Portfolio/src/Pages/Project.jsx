@@ -49,7 +49,7 @@ function Project() {
     <a href="https://github.com/Emmanuelsheyi/real-zanace-properties" target="_blank" rel="noopener noreferrer">
       <img src={zenacePic} alt="Project 2" width="300px"/>
     </a>
-    <p>Zenace Properties</p>
+    <p>Zenace Properties:  </p>
   </div>
   <div className="project-item">
     <a href="https://duubemmm.github.io/My-WebPage-Project/" target="_blank" rel="noopener noreferrer">

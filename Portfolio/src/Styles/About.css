@@ -247,6 +247,19 @@ h3{
     align-items: flex-start;
     padding: 10px;
   }
+@keyframes grow-shrink {
+  0%   { font-size: 15px; }
+  50%  { font-size: 24px; }
+  100% { font-size: 15px; }
+}
+
+.profile-menu.animate,
+.mobile-dropdown-toggle.animate {
+  animation: grow-shrink 0.7s infinite;
+}
+.profile-menu {
+  color: red;
+}
 }
 
 /* For very small screens */

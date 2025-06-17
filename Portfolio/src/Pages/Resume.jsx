@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { IoBookOutline } from "react-icons/io5";
 import { LiaUniversitySolid } from "react-icons/lia";
 
-function About() {
+function Resume() {
   return (
     <div className="right-container">
       <div className="navbar-container">
@@ -126,4 +126,4 @@ function About() {
   );
 }
 
-export default About;
+export default Resume;

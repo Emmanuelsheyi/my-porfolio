@@ -43,13 +43,15 @@ function Project() {
     <a href="https://codes-tau.vercel.app/" target="_blank" rel="noopener noreferrer">
       <img src={curamapPic} alt="Project 1"  width="300px"/>
     </a>
-    <p>curamap project: i used react in building this project ,so as to get strongly rooted in react.</p>
+    <p>Curamap project: (Still in progress)<br />
+    Curamap is a  product that helps in making healthcare accessible and affordable through innovation and connection..</p>
   </div>
   <div className="project-item">
-    <a href="https://github.com/Emmanuelsheyi/real-zanace-properties" target="_blank" rel="noopener noreferrer">
+    <a href="https://original-zenace-a18l.vercel.app/" target="_blank" rel="noopener noreferrer">
       <img src={zenacePic} alt="Project 2" width="300px"/>
     </a>
-    <p>Zenace Properties:  </p>
+    <p>Zenace Properties: <br />
+    Zenance properties is a Real Estate website that allows you to view and buy properties online  </p>
   </div>
   <div className="project-item">
     <a href="https://duubemmm.github.io/My-WebPage-Project/" target="_blank" rel="noopener noreferrer">

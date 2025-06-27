@@ -46,7 +46,7 @@ iframe {
 }
 .email-button:hover {
     background-color: rgb(47, 46, 46);
-    color: red;
+    color: green;
     font-size: 9px;
 }
 

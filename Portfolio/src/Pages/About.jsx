@@ -63,7 +63,7 @@ function About() {
           <div className="backend-text">
             <h3>Backend Development</h3>
             <span>
-              I'm currently expanding my backend skills with Node.js .
+              While my current experience is in frontend development, I’m now working towards learning backend technologies like Node.js and Express to enhance my ability to build complete applications .
             </span>
           </div>
         </div>
@@ -74,8 +74,7 @@ function About() {
           <div className="clouds-text">
             <h3>React Native</h3>
             <span>
-              I am exploring React Native for building cross-platform mobile
-              applications, enhancing my skills in mobile development.
+              No hands-on experience with React Native yet. However  I know it’s a natural next step, with a solid foundation in React, I’m preparing to transition into mobile development using React Native.
             </span>
           </div>
         </div>
@@ -86,10 +85,9 @@ function About() {
             />
           </div>
           <div className="mobile-text">
-            <h3>Mobile Development</h3>
+            <h3>Data Visualization</h3>
             <span>
-              I have a keen interest in mobile app development, particularly
-              with React Native, to create cross-platform applications.
+             I’m a frontend developer with a growing interest in data visualization. Although I haven’t built visualizations yet, I’m actively learning how to work with tools like Chart.js and Recharts to turn real-time data into meaningful visual experiences.
             </span>
           </div>
         </div>

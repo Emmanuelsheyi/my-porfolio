@@ -19,6 +19,11 @@
   margin-top: 32px;
 }
 
+.topics {
+    font-weight: 900;
+  color: rgb(187, 176, 176)
+}
+
 .project-item .project-item2 {
   display: flex;
   flex-direction: column;

@@ -61,9 +61,9 @@ function About() {
             <HiServer size={30} color="rgb(240, 190, 62)" />
           </div>
           <div className="backend-text">
-            <h3>Backend Development</h3>
+            <h3>UI/UX Design</h3>
             <span>
-              While my current experience is in frontend development, I’m now working towards learning backend technologies like Node.js and Express to enhance my ability to build complete applications .
+              I focus on creating intuitive and visually appealing user interfaces by applying core design principles. I enjoy collaborating with designers and using tools like Figma to bring seamless and user-friendly experiences to life.
             </span>
           </div>
         </div>

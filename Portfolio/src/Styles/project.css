@@ -1,7 +1,9 @@
 .project-content {
- padding: 40px;
+  padding: 40px;
   color: white;
   font-family: poppins, sans-serif;
+  overflow-x: auto;
+  box-sizing: border-box;
 }
 
 .secondlink.active {
@@ -14,9 +16,11 @@
 /* ...existing code... */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 32px;
   margin-top: 32px;
+  overflow-x: auto;
+  box-sizing: border-box;
 }
 
 .topics {
